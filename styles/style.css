@@ -7,7 +7,7 @@ h1 {
   letter-spacing: -1-62px;
   text-shadow: 0px 2px 1px #151c1f;
   background: linear-gradient(to top, lightgray, grey);
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
   font-size: 40.5px;
   font-weight: normal;
   font-stretch: normal;
@@ -17,6 +17,10 @@ h1 {
   color: #ffffff;
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+h2 {
+  font-family: Myriad Pro;
 }
 
 .hello {
@@ -34,26 +38,31 @@ h1 {
   color: #eef0f0;
 }
 
-.separator1 {
-  margin-top: 1px;
-  right: 120px;
-  width: 75%;
-  color: linear-gradient#19c2c8;
+
+hr {
+  background: linear-gradient(to top, lightgray, grey);
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
 }
-.separator2 {
-  margin-top: 10px;
-  color: linear-gradient#19c2c8;
+
+#separator1 {
+  background: rgb(39, 188, 207);
+  width: 60%;
+  margin-top: -15px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.separator3 {
-  margin-top: 1px;
-  width: 75%;
-  color: linear-gradient#19c2c8;
+
+#separator2 {
+  background: linear-gradient(to top, lightgray, grey);
+  width: 60%;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.separator4 {
-  margin-top: 1px;
-  width: 75%;
-  color: linear-gradient#19c2c8;
-}
+
+
 
 .icons {
   width: 45px;
@@ -126,7 +135,7 @@ h1 {
   margin-top: 5px;
 }
 
-.navContent > a:hover {
+.navContent>a:hover {
   width: 67px;
   height: 40px;
   background-image: linear-gradient(to top, rgba(6, 102, 133, 0.5), #19c2c8);
@@ -238,6 +247,7 @@ h1 {
   from {
     transform: rotateY(0deg);
   }
+
   to {
     transform: rotateY(360deg);
   }
