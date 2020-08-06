@@ -7,36 +7,43 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
         integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <title>INDEX</title>
 </head>
 
 <body>
-    <div class="container-fluid" id="app">
-        <div class="row">
-            <nav class="navbar navbar-dark bg-dark">
-                <a class="navbar-brand" href="index.html">
-                    <h1>ENTERPRISE INC</h1>
-                    <!--aca iria la imágen.-->
-                </a>
+    <div id="content" class="container">
+        <!--navbar (HAY QUE ARREGLAR LOS BOTONES DEL NAVBAR-->
+        <div class="row justify-content-between">
+            <div>
+                <nav id="navBar" class="nav  justify-content-end pr-5">
+                    <a class="navbar-brand" href="index.html">
+                        <h1>ENTERPRISE INC</h1>
+                    </a>
+            </div>
+            <div class="navContent">
                 <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-link" href="#">About</a>
                 <a class="nav-link" href="#">Portfolio</a>
                 <a class="nav-link" href="#">Services</a>
                 <a class="nav-link" href="#">Blog</a>
                 <a class="nav-link" href="#">Contact</a>
-            </nav>
-        </div>
-
-        <div class="row content">
-            <div>
-                <h2>HELLO! <br> YOU ARE HERE</h2>
+                </nav>
             </div>
-            <div>
-                <p>We can help you to build the value for your<br> bussines. Well it's not only about beautifull<br>
+        </div>
+        <hr class="separator1">
+        <!--tittle-->
+        <div class="row content">
+            <div class="welcome">
+                <h2 class="hello">HELLO!</h2>
+                <p class="youAreHere">YOU ARE HERE</p>
+                <p class="helpU">We can help you to build the value for your<br> bussines. Well it's not only about
+                    beautifull<br>
                     desing
                     but also
                     about greater functionality and<br> flexibility. Let us help you with your bussines</p>
             </div>
+            <!--carrousel-->
             <div class="content-all">
                 <div class="content-carrousel">
                     <figure><img src="images/image1.jpg" alt="car1"></figure>
@@ -51,11 +58,104 @@
                     <figure><img src="images/image10.jpg" alt="car10"></figure>
                 </div>
             </div>
+            <hr class="separator2">
+            <!--imageRow-->
+            <div class="row">
+
+                <div class="col d-flex justify-content-between">
+
+                    <div class="card" style="width: 18rem;">
+
+                        <div class="card-body">
+                            <img src="./images/clock.png" class="card-img-top m-3 icons" alt="mini-clock">
+                            <h3>Strict Deadlines</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <button type="button" class="btn btn-secondary btn-sm midButtons">Read more...</button>
+
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+
+                        <div class="card-body">
+                            <img src="./images/cake.png" class="card-img-top m-3 icons" alt="mini-cake">
+                            <h3>Best Pricing</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <button type="button" class="btn btn-secondary btn-sm midButtons">Read more...</button>
+
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+
+                        <div class="card-body">
+                            <img src="./images/calendar.png" class="card-img-top m-3 icons" alt="mini-calendar">
+                            <h3>High Quality</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <button type="button" class="btn btn-secondary btn-sm midButtons">Read more...</button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <hr class="separator3">
+            <!--imageRow2 -->
+            <div class="row">
+
+                <div class="col d-flex justify-content-between">
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/image9.jpg" class="card-img-top m-3 cars" alt="workExample1">
+                        <div class="card-body">
+                            <h3>Recent work 1</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <button type="button" class="btn btn-secondary btn-sm midButtons">Read more...</button>
+
+                        </div>
+                    </div>
+
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/image5.jpg" class="card-img-top m-3 cars" alt="workExample2">
+                        <div class="card-body">
+                            <h3>Recent work 2</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <button type="button" class="btn btn-secondary btn-sm midButtons">Read more...</button>
+
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="./images/image6.jpg" class="card-img-top m-3 cars" alt="workExample3">
+                        <div class="card-body">
+                            <h3>Recent work 3</h3>
+                            <p class="card-text">Some quick example text to build on the card title and make up the
+                                bulk of the card's content.</p>
+                            <button type="button" class="btn btn-secondary btn-sm midButtons">Read more...</button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <hr class="separator4">
+            <!--footer-->
+
 
         </div>
-
-
-    </div>
 
     </div>
 
