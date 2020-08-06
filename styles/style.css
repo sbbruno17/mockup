@@ -115,6 +115,12 @@ h1 {
   margin-top: 5px;
 }
 
+#footNavBar {
+  color: #002931;
+  margin-top: 5px;
+  display: flex;
+}
+
 .navContent {
   display: flex;
   margin-top: 5px;
@@ -133,6 +139,11 @@ h1 {
 
 .navbar {
   width: 100%;
+}
+
+#twLogo {
+  width: 74px;
+  height: 81px;
 }
 
 * {
