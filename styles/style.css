@@ -38,6 +38,10 @@ h2 {
   color: #eef0f0;
 }
 
+button {
+  font-family: 'Arial';
+
+}
 
 hr {
   background: linear-gradient(to top, lightgray, grey);
@@ -153,6 +157,11 @@ hr {
 #twLogo {
   width: 74px;
   height: 81px;
+  margin-left: 50px;
+}
+
+.card {
+  border: none;
 }
 
 * {
